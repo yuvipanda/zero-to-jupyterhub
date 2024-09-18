@@ -43,6 +43,8 @@ hub:
       nodePort:
     extraPorts: []
     loadBalancerIP:
+    ipFamilyPolicy: ""
+    ipFamilies: []
   baseUrl: /
   cookieSecret:
   initContainers: []
